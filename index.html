@@ -4,75 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/df0c7ea933.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <link href="src/style.css" rel="stylesheet">
-  </head>
-
+    <link rel="stylesheet" href="src/style.css">
+    <title>Weather App</title>
+ </head>
  <body>
-    <div class="container">
-     <form id="search-engine">
-        <input
-        type="text"
-        placeholder="Search"
-        autocomplete="off"
-        autofocus="on"
-        id="search-text-input"
-        />
-
-        <input type="submit" value="Search" />
-      </form>
-
-     <div class="city-day">
-       <h1> </h1>
-       <h6> </h6>
-     </div>
-
-     <div class="degree" id="temperature">
-        <!--<h1>18°</h1>
-        <i class="fas fa-sun"></i> -->
-     </div>
-     
-     <div class="row">
-       <div class="col-sm-2">
-          <div class="card-body">
-           <h5 class="card-title">Sat 13.03</h5>
-           <i class="fas fa-sun"></i>
-         </div>     
-       </div>
-       <div class="col-sm-2">
-          <div class="card-body">
-           <h5 class="card-title">Sun 14.03</h5>
-           <i class="fas fa-sun"></i>
-         </div>     
-       </div>
-        <div class="col-sm-2">
-          <div class="card-body">
-           <h5 class="card-title">Mon 15.03</h5>
-           <i class="fas fa-cloud"></i>
-         </div>     
+   <div class="container">
+     <div class="weather-app">
+        <div class="weatherInformation">
+          <div class="row">
+            <div class="col-6">
+              <h1>London</h1>
+              <ul>
+                <li> 
+                  <span>Saturday 12:43</span>
+                  ,
+                  Clear Sky
+                </li>
+                <li>Precipitation: <strong>0%</strong>, Humidity: <strong>53%</strong>, Wind:<strong> 3.09km/h</strong></li>
+            </ul>
+            </div>
+            <div class="col-6">
+              <img src="src/sunLogo.png" alt="sunLogo" canvas width="52" height="52"></canvas>
+              <span class="temperature">8</span>
+              <span class="unit">°C | °F </span>
+            </div>
+          </div>
         </div>
-        <div class="col-sm-2">
-          <div class="card-body">
-           <h5 class="card-title">Tue 16.03</h5>
-           <i class="fas fa-cloud-rain"></i>
-         </div>     
+      </div>
+      <div class="footer">
+          <small> Project coded by BMJ. Open sourced on <a href="https://github.com/Bee-Mj/Vanilla-Weather-App" target="_blank" style="text-decoration: none;">GitHub.</a> Hosted on <a href="https://www.netlify.com/" target="_blank" style="text-decoration: none;">Netlify.</a> </small>
        </div>
-       <div class="col-sm-2">
-          <div class="card-body">
-           <h5 class="card-title">Wed 17.03</h5>
-           <i class="fas fa-sun"></i>
-         </div>    
-       </div>
-     </div>
-
     </div>
-    
-    <script src="src/app.js"></script> 
-    
-    
+    <script src="src/app.js"></script>
   </body>
 </html>

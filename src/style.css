@@ -1,88 +1,35 @@
-.container {
-  width: 690px;
-  border: 1px solid rgba(67, 195, 227, 0.600);
-  border-radius: 10px;
-  margin-top: 30px;
-  margin-left: 50px;
+.weather-app {
+  max-width: 600px;
+  margin: 30px auto; 
+  padding: 20px;
+  border: 1px solid #272142;
+  border-radius: 16px;
 }
 
-form {
-  margin-top: 60px;
-  margin-left: 20px;
-  width: 280px; 
+h1 {
+  font-size: 38px;
+  line-height: 48px;
+  margin: 20px 0 10px;
+  color: #272142;
 }
 
-.city-day {
-  margin-top: 25px; 
-  margin-left: 50px;
-  color: #30302e;
-}
-
-.city-day h1 { /*London*/
-  font-size: 35px; 
-  padding-top: 30px;
-}
-
-h6 { /* day and time */
-  margin-left: 2px; 
-}
-
-.degree {
+ul /*gets rid off space where bullet points were*/{
+  margin: 0;
   padding: 0;
-  margin-right: 150px;
 }
 
-.degree h1 {
-  color: #30302e;
-  position: relative; 
-  /*margin-left: 250px;*/
-  margin-top: -75px; 
-  font-size: 45px;
-  margin-right: 1050px;
+li { 
+  margin-bottom: 15px;
+  color: darkgray;
+  font-size: 16px;
+  line-height: 20px;
+  list-style: none;
 }
 
-.degree .fa-sun {
-  display: block;
-  position: relative;
-  color:  rgba(255, 255, 0, 0.85);
-  margin-left: 70px;
-  margin-top: -54px;
-  font-size: 45px;
+li strong {
+  color: #f65282;
 }
 
-.row {
-  width: 690px;
-  margin-top: 80px;
-  margin-bottom: 50px;
-  margin-left: 5px;
-  text-align: center;
-}
-
-.card-title {
-  font-size: 12px;
-  color: #30302e;
-}
-
-.fa-sun {
-  color: rgba(255, 255, 0, 0.9);
-  font-size: 25px; 
-}
-
-.fa-cloud {
-  color:rgba(67, 195, 227); 
-  font-size: 25px;
-}
-
-.fa-cloud-rain {
-  color:rgba(67, 195, 227); 
-  font-size: 25px;
-}
-
-#temperature {
-  color: #30302e;
-  position: relative; 
-  margin-left: 250px;
-  margin-top: -75px; 
-  font-size: 45px;
-  margin-right: 1050px;
+.footer {
+  margin-left: 260px;
 }

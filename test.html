@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/df0c7ea933.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link href="src/style.css" rel="stylesheet">
+  </head>
+
+ <body>
+   <div class="container">
+      <div class="searchEngine"></div>
+       <form id="search-engine">
+          <input
+            type="text"
+            placeholder="Type a city..."
+            autocomplete="off"
+            autofocus="on"
+            id="search-text-input"
+          /> 
+        </form>
+      </div>
+      <div class="searchButton">
+        <input
+          type="submit"
+          value="Search"
+          class="btn btn-primary w-100"
+          style="background-color: rgba(17, 104, 126, 0.9); border-color: rgba(17, 104, 126, 0.9) ;"
+        />
+     </div>
+     <div class="theBorder">
+        <div class="weatherInformation">
+          <div class="row">
+            <div class="col-6">
+              <h1> London </h1>
+              <ul style="list-style-type: none;">
+                <li> 
+                  <span> <h6>Sat May 1, 18:6, 2021 </h6></span>
+                  ,
+                  Clear Sky
+                </li>
+                <li>Humidity: 53%, Wind: 3.09km/h</li>
+            </ul>
+            </div>
+            <div class="col-6">
+              <div class="degree" id="temperature">
+              <span class="degree">18</span>
+              <span class="unit">°C</span>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+          Project coded by BMJ. Open sourced on <a href="https://github.com/Bee-Mj/Vanilla-Weather-App" target="_blank" style="text-decoration: none;">GitHub.</a> Hosted on <a href="https://www.netlify.com/" target="_blank" style="text-decoration: none;">Netlify.</a>  
+       </div>
+    </div>
+
+
+    
+
+       
+   
+     
+
+    </div>
+    </div>
+     
+
+     
+
+    
+    
+    <script src="src/app.js"></script> 
+    
+    
+  </body>
+</html>
