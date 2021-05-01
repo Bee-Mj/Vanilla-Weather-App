@@ -1,3 +1,27 @@
-.ul {
-    list-style-type: none;
+body {
+background: #f9f7fe;
+margin: 0;
+font-family: Helvetica,Arial,sans-serif;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #212529;
+text-align: left;
+background-color: #fff;
+}
+
+.container {
+
+float: none; 
+line-height: 24px;
+position: static;
+z-index: auto;
+box-sizing: border-box;
+}
+
+.theBorder {
+border-radius: 16px;
+box-shadow: 0 30px 50px rgba(65,50,100,.08);
+padding: 40px;
+color: #878787; /*colour of font inside box*/
 }
