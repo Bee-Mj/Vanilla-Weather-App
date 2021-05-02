@@ -20,6 +20,8 @@
                 type="search"
                 placeholder="Search"
                 class="form-control"
+                id="city-input"
+                autocomplete="off"
                 />
               </div>
               <div class="col-3">
@@ -33,10 +35,10 @@
           <div class="weatherInformation">
             <div class="row">
               <div class="col-6">
-                <h1 id="city">London</h1>
+                <h1 id="city"></h1>
                 <ul>
                   <li> 
-                    <span id="date">Saturday 12:43</span>,
+                    <span id="date"></span>,
                     <span id="description"></span>
                   </li>
                   <li>Precipitation: <strong>0%</strong>, Humidity: <strong><span id="humidity"></span>%</strong>, Wind: <strong><span id="wind">
@@ -46,7 +48,7 @@
               <div class="col-6">
                 <div class="temperature-container d-flex justify-content-end">
                  <img src="" alt="." id="icon" canvas="" width="52" height="52">
-                 <span id="temperature">8</span>
+                 <span id="temperature"></span>
                  <span class="unit">°C | °F </span>
                </div>
              </div>
