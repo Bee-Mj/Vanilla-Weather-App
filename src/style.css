@@ -69,3 +69,7 @@ margin-top: 30px;
 #celsius-link {
   text-decoration: none;
 }
+
+.col-6 .active {
+  color: #212121;
+}
