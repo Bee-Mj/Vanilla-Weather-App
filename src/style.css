@@ -7,6 +7,7 @@
   padding: 20px;
   border: 1px solid #272142;
   border-radius: 16px;
+  padding-bottom: 50px;
 }
 
 h1 {
@@ -41,10 +42,6 @@ margin-top: 30px;
   margin-top: 35px;
 }
 
-.unit {
-  margin-top: 70px;
-}
-
 .temperature {
   color: #212121;
   margin-left: 10px;
@@ -54,6 +51,7 @@ margin-top: 30px;
 }
 
 .unit {
+  margin-top: 70px;
   color: #212121;
   font-size: 28px;
   line-height: 36px;
