@@ -37,14 +37,9 @@ days.forEach(function(day) {
 });
 
 
-
 forecastHTML = forecastHTML + `</div>`;
 forecastElement.innerHTML = forecastHTML;
 }
-
-
-
-
 
 
 function displayTemperature(response) {
