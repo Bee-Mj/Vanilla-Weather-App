@@ -24,9 +24,10 @@ ul /*gets rid off space where bullet points were*/{
 
 li { 
   margin-bottom: 15px;
+  margin-top: 20px;
   color: darkgray;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.5px;
   list-style: none;
   text-transform: capitalize;
 }
